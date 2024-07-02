@@ -18,7 +18,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-AAsecondary font-mono"
       >
-        Hi, my name is
+      Hi, my name is
       </motion.span>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -28,8 +28,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
           y: { delay: props.finishedLoading ? 0 : 10.5, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
-      >
-        Anaflous Abdellatif.
+      >Deepak Kumawat.
       </motion.h1>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
@@ -71,7 +70,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="mt-12"
       >
-        <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
+        <a href={"/DEEPAK_RESUME.pdf"} target={"_blank"} rel="noreferrer">
           <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
             Check out my resume!
           </button>
