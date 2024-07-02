@@ -19,16 +19,20 @@ module.exports = {
         Text2: ["Lato", "sans-serif"],
         About: ["Playfair Display", "serif"],
         Arimo: ["Arimo", "sans-serif"],
+        incognito: ["var(--incognito)"],
+        inter: ["var(--inter)"],
       },
       colors: {
-        AAprimary: "#0b192f",
-        AAsecondary: "#64ffda",
+        AAprimary: "#000738",
+        AAsecondary: "#04aeec",
         AAError: "#ff6489",
         AAtertiary: "#112340",
         ResumeButtonHover: "#153040",
         MobileNavBarColor: "#112340",
         StartupBackground: "#020c1b",
+       
       },
+      
       screens: {
         sm: "640px",
         // => @media (min-width: 640px) { ... }
