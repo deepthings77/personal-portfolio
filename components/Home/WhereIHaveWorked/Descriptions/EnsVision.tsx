@@ -5,21 +5,21 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function EnsVision() {
   const tasks = [
     {
-      text: "Worked on the front-end development in the web3 domain using Next.js, Alchemy, Tailwind CSS, Wagmi, Web3.js, Moralis, Ethers.js",
-      keywords: ["Alchemy", "Wagmi", "Web3.js", "Moralis", "Ethers.js"],
+      text: " Co-founded and hosted TheSkillShow Podcast, curating a transformative platform that celebrates the extraordinary talents and expertise of individuals from various fields.",
+      keywords: ["Co-founded", "TheSkillShow", ],
     },
     {
-      text: "Conducted testing tasks to ensure website functionality and quality. Managed a large user base on the website",
-      keywords: ["quality", "testing tasks", "user base"],
+      text: "Spearheaded the creation and management of TheSkillShow Podcast, collaboratively overseeing all aspects including content creation, technical management, and video editing.",
+      keywords: ["content creation", "technical management", "video editing"],
     },
-    {
-      text: "Implemented website design and enhanced interactivity.",
-      keywords: ["website design"],
-    },
-    {
-      text: "Collaborated closely with the team in regular meetings and interacted with smart contracts and gained expertise in ENS",
-      keywords: ["smart contracts", "ENS"],
-    },
+    // {
+    //   text: "Implemented website design and enhanced interactivity.",
+    //   keywords: ["website design"],
+    // },
+    // {
+    //   text: "Collaborated closely with the team in regular meetings and interacted with smart contracts and gained expertise in ENS",
+    //   keywords: ["smart contracts", "ENS"],
+    // },
   ];
 
   return (
@@ -28,17 +28,17 @@ export default function EnsVision() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ web3</span>
+            Co-founder<span className="text-AAsecondary"> @TheSkillShow</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Dec 2022 - Jun 2023</span>
+          <span className="font-mono text-xs text-gray-500">July 2022 - Present</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
-            onClick={() => window.open("https://www.ens.vision/", "_blank")}
+            onClick={() => window.open("https://youtube.com/@tss.theskillshow?si=wpyoVqsHLJ34zHhz", "_blank")}
           >
-            www.ens.vision
+            TheSkillShow
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

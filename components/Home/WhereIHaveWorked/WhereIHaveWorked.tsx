@@ -118,14 +118,14 @@ const CompaniesBar = props => {
         <div className="flex flex-row md:flex-col">
         <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="ENS Vision"
+            CompanyName="TheSkillShow"
             BarPosition={-12}
             BarAvobePosition={1}
-            DescriptionJob="ENSVision"
+            DescriptionJob="TheSkillShow"
             CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
             CompanyName="TrouveTavoie"
             BarPosition={32}
@@ -178,7 +178,7 @@ const CompaniesBar = props => {
             DescriptionJob="Fantasia"
             CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
-          />
+          /> */}
         </div>
         <div className="block md:hidden h-0.5 rounded bg-gray-500">
           <motion.div animate={{ x: barAbovePosition }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>

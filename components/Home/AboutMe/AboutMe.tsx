@@ -3,8 +3,10 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Ether.js", "Solidity"],
-    ["Node.js", "TypeScript", "Framer Motion", "react-moralis", "web3.js"],
+    ["C", "C++", "JavaScript (ES6+)", "Dart", " Python", "Docker", "Git", "GitHub"],
+    ["NodeJS", " ReactJs(Intermediate)", "Next.js", "Flutter", " Express","Tailwind CSS","MongoDB", "MySQL"],
+    
+   
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -29,21 +31,19 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Deepak, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2022 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
-                would become essential in pursuing this interest, marking the start of my programming journey.
+                Hello! My name is <span className="text-AAsecondary">Deepak Kumawat</span>, and I am a passionate software engineer and problem solver, dedicated to
+                creating impactful codes that thrive on the internet. 
+                <br />
+                <span>My journey in <span className="text-AAsecondary">Computer Science</span> began in 2022 when
+                I delved into the world of Engineering at <span className="text-AAsecondary">N.I.T HAMIRPUR</span> . With a strong foundation in software development and a keen interest in innovative solutions, I have consistently demonstrated my ability to engineer efficient and impactful projects. </span>
+                <br />    
+                 My expertise spans across various programming languages and modern technologies, making me adept at tackling complex challenges and delivering high-quality results.
               </span>
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
-                refine my expertise in desktop and web development. In the realm of{" "}
-                <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
-                advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
-                <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
-                learning drives me to make a positive impact and advance technology.
+                Since pursuing my engineering degree, my engineering has taken me through diverse industries, allowing me to
+                refine my expertise in App and Web development.
               </span>
             </div>
             {/* <div className="font-Header tracking-wide">
@@ -61,7 +61,7 @@ export default function AboutMe(props) {
 
             <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
-                Here are a few technologies I&apos;ve been working with recently :
+                Here are a few things I&apos;ve been working on recently :
               </span>
             </div>
             <div className="font-Header tracking-wide flex flex-row space-x-16">
@@ -102,7 +102,7 @@ export default function AboutMe(props) {
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
               <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+                src={"/img/pro-2.png"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />
@@ -113,7 +113,7 @@ export default function AboutMe(props) {
             <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+                src={"/img/pro-2.png"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />

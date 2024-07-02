@@ -30,49 +30,7 @@ export default function Home() {
   // check if user from Black List
   const [isBlackListed, setIsBlackListed] = useState(false);
 
-  // check if NEXT_PUBLC_BLACKLIST_COUNTRIES is empty
-  // const [IsBlackListEmpty, setIsBlackListEmpty] = useState(
-  //   process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES === "" ? true : false
-  // );
-
-  // this userEffect will be called to get the user location, so we can check if he is from the blackList,
-  // this will only run if NEXT_PUBLIC_BLACKLIST_COUNTRIES is not empty
-  // useEffect(() => {
-  //   if (!IsBlackListEmpty) {
-  //     const fetchData = async () => {
-  //       try {
-  //         const IP_Address = async () => {
-  //           return fetch("https://api.ipify.org/?format=json")
-  //             .then(res => res.json())
-  //             .then(data => data.ip);
-  //         };
-
-  //         const response = await fetch("/api/userInfoByIP/" + (await IP_Address())); // Replace with your actual API endpoint
-  //         const data = await response.json();
-  //         setUserData(data);
-  //       } catch (error) {
-  //         console.error("Error fetching data location and ip address:", error);
-  //         // Handle errors as needed
-  //       }
-  //     };
-
-  //     fetchData();
-  //   }
-  // }, [IsBlackListEmpty]); // Empty dependency array ensures that this effect runs once when the component mounts
-
-  // this useEffect will be called when userData is set
-  // useEffect(() => {
-  //   // this will only run if NEXT_PUBLIC_BLACKLIST_COUNTRIES is not empty
-  //   if (!IsBlackListEmpty) {
-  //     if (userData) {
-  //       // check if the user country is in the blackList
-  //       if (process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES.includes(userData.country)) {
-  //         // set isBlackListed to true
-  //         setIsBlackListed(true);
-  //       }
-  //     }
-  //   }
-  // }, [IsBlackListEmpty, userData]);
+  
 
   useEffect(() => {
     // remove the interval Cookie timer setter when
@@ -91,7 +49,7 @@ export default function Home() {
 
     setTimeout(() => {
       setShowThisCantBeReached(false);
-    }, 5400);
+    }, 3000);
     // ? INFORMATIONAL next function will show the component after changing the state of ShowMe
     setTimeout(() => {
       setShowElement(false);
@@ -107,9 +65,9 @@ export default function Home() {
 
   console.log("website is rendering...");
   const meta = {
-    title: "Deepak Kumawat - Software Engineer",
-    description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
-    image: "/titofCercle.png",
+    title: "Deepak Kumawat - Portfolio",
+    description: `This is my portfolio. Get in touch with me to know more.`,
+    // image: "/pro-1.png",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
@@ -118,20 +76,22 @@ export default function Home() {
     <>
       <Head>
         <title>{meta.title}</title>
-        <meta name="robots" content="follow, index" />
-        <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://anaflous.com`} />
+        {/* <meta name="robots" content="follow, index" />
+        <meta content={meta.description} name="description" /> */}
+        {/* <meta property="og:url" content={`https://anaflous.com`} />
         <link rel="canonical" href={`https://anaflous.com`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
+       
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@titofabdo" />
+        <meta property="og:image" content={meta.image} />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={meta.image} />
+        <meta name="twitter:image" content={meta.image} /> */
+        }
       </Head>
 
       {!isBlackListed ? (
@@ -146,7 +106,7 @@ export default function Home() {
           {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
           {context.sharedState.finishedLoading ? (
-            <Footer githubUrl={"https://github.com/hktitof/my-website"} hideSocialsInDesktop={true} />
+            <Footer githubUrl={"https://github.com/deepthings77/personal-portfolio"} hideSocialsInDesktop={true} />
           ) : (
             <></>
           )}
