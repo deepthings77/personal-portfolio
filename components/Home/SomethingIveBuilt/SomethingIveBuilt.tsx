@@ -215,7 +215,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                <span className="text-AAsecondary">Boxhole</span> lets you use YouTube as a <span className="text-AAsecondary">Infinite Cloud Storage</span>. It embeds any files like - Images, Videos, Documents, etc into a video. The video can be uploaded to YouTube and the file can be retrieved from the video. A expansion & compression technique is used to defeat YouTube's compression algorithm. The file can be retrieved from the video without any loss of data.
+                <span className="text-AAsecondary">Boxhole</span> lets you use YouTube as a <span className="text-AAsecondary">Infinite Cloud Storage</span>. It embeds any files like - Images, Videos, Documents, etc into a video. The video can be uploaded to YouTube and the file can be retrieved from the video. A expansion & compression technique is used to defeat YouTube&apos;s compression algorithm. The file can be retrieved from the video without any loss of data.
                 </p>
               </div>
               <ul
@@ -384,12 +384,12 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="/" target={"_blank"} rel="noreferrer">
+              <Link href="/" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
-              </a>
+              </Link>
 
               <Img src={"/img/portfolio.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
@@ -412,11 +412,11 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Portfolio</span>
-                <a href="/" target={"_blank"} rel="noreferrer">
+                <Link href="/" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Personal-portfolio
                   </span>
-                </a>
+                </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
@@ -490,7 +490,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                Here are some of podcasts that I've done...
+                Here are some of podcasts that I&apos;ve done...
                 </p>
               </div>
               <ul
@@ -625,7 +625,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                Here are some of podcasts that I've done...
+                Here are some of podcasts that I&apos;ve done...
                 </p>
               </div>
               <ul
