@@ -48,4 +48,5 @@ Since I integrated some of my project into my website i'll i mention most of tec
    ```sh
    yarn dev
    ```
+   Special Thanks to Abdellatif Anaflous @hktitof for letting me use this repo..
 
