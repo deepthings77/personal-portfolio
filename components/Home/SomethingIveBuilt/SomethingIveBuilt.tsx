@@ -272,7 +272,7 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-base">Recent Project</span>
                 <Link href={"https://github.com/deepthings77/CoolWalls"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    User Data puller
+                    CoolWalls
                   </span>
                 </Link>
               </div>
