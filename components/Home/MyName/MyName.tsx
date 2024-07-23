@@ -51,7 +51,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-bold text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        CREATE LIKE A <span className="text-AAsecondary">ARTIST</span>. <br />
+        CREATE LIKE AN <span className="text-AAsecondary">ARTIST</span>. <br />
         SOLVE LIKE AN <span className="text-AAsecondary">ENGINEER</span>. <br />
         ACT LIKE AN <span className="text-AAsecondary">ENTREPRENEUR</span>.
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
