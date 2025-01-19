@@ -151,7 +151,7 @@ seller profiles, improving overall user impressions by 5%.
                text-sm font-Text2 md:justify-end"
               >
                 <span className="pr-4 z-10">React.js</span>
-                <span className="pr-4 z-10">MongoDBspan>
+                <span className="pr-4 z-10">MongoDB</span>
                 <span className="pr-4 z-10">Express</span>
                 {/* <span className="pr-4 z-10">TypeScript</span> */}
               </ul>
