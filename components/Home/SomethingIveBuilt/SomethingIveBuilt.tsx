@@ -112,7 +112,7 @@ recommendations, boosting engagement and usability.
                 ></div>
               </Link>
 
-              <Img src={"/img/val3.jpeg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/img/valuewars.jpeg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -123,7 +123,7 @@ recommendations, boosting engagement and usability.
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/img/val3.jpeg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/img/valuewars.jpeg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
