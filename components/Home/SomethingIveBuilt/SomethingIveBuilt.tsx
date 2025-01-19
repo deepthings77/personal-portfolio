@@ -37,7 +37,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"https://github.com/deepthings77/boxhole"}>
+              <Link href={"https://www.dealyshop.me/des"}>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -65,29 +65,32 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Boxhole</span>
-                <Link href={"https://github.com/deepthings77/boxhole"}>
+                <span className="text-AAsecondary text-base">Dealy</span>
+                <Link href={"https://www.dealyshop.me/des"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Boxhole-The Ultimate blackhole of storage
+                    Dealy- Wishlist-Sharing Platform
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                <span className="text-AAsecondary">Boxhole</span> lets you use YouTube as a <span className="text-AAsecondary">Infinite Cloud Storage</span>. It embeds any files like - Images, Videos, Documents, etc into a video. The video can be uploaded to YouTube and the file can be retrieved from the video. A expansion & compression technique is used to defeat YouTube&apos;s compression algorithm. The file can be retrieved from the video without any loss of data.
+              Designed and implemented an interactive wishlist-sharing platform enabling users to create, organize, and share personalized product collections seamlessly.
+                  Acquired 150+ users and facilitated the listing of 1,000+ products within the first week of launch.
+                  Built a Personalized Online Dealy Shop feature for influencers and users, providing a curated storefront for product
+recommendations, boosting engagement and usability.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Python</span>
-                <span className="pr-4 z-10">C++</span>
-                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10">React.js</span>
+                <span className="pr-4 z-10">Redux</span>
+                <span className="pr-4 z-10">Express.js</span>
                 {/* <span className="pr-4 z-10">TypeScript</span> */}
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/deepthings77/boxhole" />
+                <GithubIcon link="https://github.com/deepthings77/dealy_deploy" />
                 {/* <ExternalLink url={"typing"} router={router} /> */}
               </div>
             </div>
@@ -101,7 +104,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"https://github.com/deepthings77/boxhole"}>
+              <Link href={"https://valuewars.netlify.app/"}>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -129,29 +132,31 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Boxhole</span>
-                <Link href={"https://github.com/deepthings77/boxhole"}>
+                <span className="text-AAsecondary text-base">ValueWars</span>
+                <Link href={"https://valuewars.netlify.app/"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Boxhole-The Ultimate blackhole of storage
+                    ValueWars-The Ultimate Bidding Platform
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                <span className="text-AAsecondary">Boxhole</span> lets you use YouTube as a <span className="text-AAsecondary">Infinite Cloud Storage</span>. It embeds any files like - Images, Videos, Documents, etc into a video. The video can be uploaded to YouTube and the file can be retrieved from the video. A expansion & compression technique is used to defeat YouTube&apos;s compression algorithm. The file can be retrieved from the video without any loss of data.
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">Engineered a full-stack auction platform using React.js and Node.js with Express, optimizing performance and scalability.
+                  Integrated advanced image optimization techniques, resulting in a 40% reduction in page load time.
+                  Enhanced auction management with features like live stats, an admin dashboard, winning bid notifications, and
+seller profiles, improving overall user impressions by 5%.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Python</span>
-                <span className="pr-4 z-10">C++</span>
-                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10">React.js</span>
+                <span className="pr-4 z-10">MongoDBspan>
+                <span className="pr-4 z-10">Express</span>
                 {/* <span className="pr-4 z-10">TypeScript</span> */}
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/deepthings77/boxhole" />
+                <GithubIcon link="https://github.com/deepthings77/valuewars_whole_project_working" />
                 {/* <ExternalLink url={"typing"} router={router} /> */}
               </div>
             </div>
